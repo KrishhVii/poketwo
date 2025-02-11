@@ -853,7 +853,7 @@ class Trading(commands.Cog):
 
         if 3000 - trade_size < 0:
             return await ctx.send(
-                f"There are too many pokémon in this trade! Try adding them individually or seperating it into different trades."
+                f"There are too many pokémon in this trade! Try adding them individually or separating it into different trades."
             )
 
         if trade_size + num > 3000:
